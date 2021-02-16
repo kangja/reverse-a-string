@@ -10,10 +10,13 @@ function reverse(str) {
     backwards.push(str[i]);
   }
   // console.log(backwards);
-
+ 
   return backwards.join("");
   // return backwards;
 
+  function reverse2(str) {
+    return str.split("").reverse.join("")
+  }
 }
 
 console.log(reverse("Hi my name is Jason"));
